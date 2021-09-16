@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.row {
+    display: flex; 
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.col {
+    height: 115px;
+    flex: 1;
+    background-color: teal;
+}
+
+.col-2 {
+    height: 115px;
+    flex: 2;
+    background-color: teal;
+}
+
+.col-3 {
+    height: 115px;
+    flex: 3;
+    background-color: teal;
+}
